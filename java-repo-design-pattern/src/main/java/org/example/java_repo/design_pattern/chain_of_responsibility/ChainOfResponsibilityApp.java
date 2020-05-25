@@ -43,7 +43,7 @@ public class ChainOfResponsibilityApp {
             FilterChain emptyFilterChain = new FilterChain(Collections.emptyList());
             Body body = new Body();
             FilterContext filterContext = new FilterContext();
-            System.out.println(filterChain.doFilter(body, filterContext));
+            System.out.println(emptyFilterChain.doFilter(body, filterContext));
             System.out.println(filterContext);
         }
     }
