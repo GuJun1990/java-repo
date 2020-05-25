@@ -8,7 +8,7 @@ package org.example.java_repo.design_pattern.chain_of_responsibility;
 public class FilterB implements FilterService {
     @Override
     public boolean filter(Body body, FilterContext context) {
-        context.logProcess(FilterB.class, body.isParam2() ? "true" : "false");
+        context.logProcess(FilterB.class, body.isParam2());
         return body.isParam2();
     }
 }

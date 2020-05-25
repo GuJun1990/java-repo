@@ -10,7 +10,7 @@ import java.util.Map;
  */
 public class FilterContext {
 
-    private final Map<String, String> map;
+    private final Map<String, Object> map;
 
     public FilterContext() {
         map = new HashMap<>();
@@ -20,7 +20,7 @@ public class FilterContext {
         map.put("status", status);
     }
 
-    public void logProcess(Class<?> clazz, String msg) {
+    public void logProcess(Class<?> clazz, Object msg) {
         map.put(clazz.toString(), msg);
     }
 
