@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * 过滤上下文对象
  * @author gujun@qiyi.com
  * @since 2020/5/25 6:01 下午
  */
