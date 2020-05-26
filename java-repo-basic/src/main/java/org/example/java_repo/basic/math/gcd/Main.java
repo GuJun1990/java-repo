@@ -1,8 +1,5 @@
 package org.example.java_repo.basic.math.gcd;
 
-import com.sun.tools.classfile.ConstantPool;
-
-import javax.swing.*;
 import java.util.Arrays;
 import java.util.OptionalInt;
 
