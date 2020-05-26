@@ -11,5 +11,12 @@
 
   <artifactId>java-repo-basic</artifactId>
 
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+    </dependency>
+  </dependencies>
+
 
 </project>
