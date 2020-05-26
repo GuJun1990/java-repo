@@ -32,7 +32,7 @@ public class FilterChain {
             ret = FILTER_SERVICES.get(index).filter(body, context);
             ++index;
         }
-        context.logStatus(ret ? "succeed" : "failed");
+        context.logStatus(ret);
         return ret;
     }
 

@@ -16,7 +16,7 @@ public class FilterContext {
         map = new HashMap<>();
     }
 
-    public void logStatus(String status) {
+    public void logStatus(boolean status) {
         map.put("status", status);
     }
 
